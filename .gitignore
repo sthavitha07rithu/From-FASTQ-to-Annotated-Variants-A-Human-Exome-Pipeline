@@ -1,0 +1,27 @@
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+raw_data/
+
+# Large alignment files
+*.sam
+*.bam
+*.bai
+aln/
+
+# Reference genome & indices
+reference/*.fa
+reference/*.fai
+reference/*.bwt
+reference/*.amb
+reference/*.ann
+reference/*.pac
+reference/*.sa
+
+# Logs & temp files
+*.log
+*.tmp
+
+# Conda / environment
+miniconda3/
+.env/
